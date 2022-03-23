@@ -1,0 +1,93 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #e7f2f7;
+  background-color: #2f3d45;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  color: #2f3d45;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d7e4e2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  min-height: 300px;
+}
+
+.phrase {
+  text-transform: none;
+  font-weight: normal;
+}
+
+.card:hover,
+.card:focus,
+.card:active,
+.card-link:hover {
+  color: #c67720;
+  border-color: #c67720;
+}
+
+h1 {
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.fish-name {
+  font-size: 1.2rem;
+  color: #fcb86d;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #e7f2f7;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: #fcb86d;
+}
+
+.nav-link-active {
+  color: #fcb86d;
+}
+
+.btn-primary {
+  background-color: #fcb86d;
+  border-color: #fcb86d;
+  color: black;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #c67720;
+  border-color: #c67720;
+}
+
+.btn a {
+  padding: 10px;
+}
+
+.btn a:hover {
+  color: #fff;
+}
